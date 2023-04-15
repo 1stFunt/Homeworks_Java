@@ -6,11 +6,11 @@ import java.util.Scanner;
 public class MainClassForLaptop {
     public static void main(String[] args) {
         ArrayList<Laptop> laptops = new ArrayList<>();
-        laptops.add(new Laptop("Lenovo", "Ideapad", 750.0, 8, 512, "Intel Core i5", "b"));
+        laptops.add(new Laptop("Lenovo", "Ideapad", 750.0, 8, 512, "Intel Core i5", "Белый"));
         laptops.add(new Laptop("HP", "Pavilion", 980.0, 16, 1024, "Intel Core i7", "Серебристый"));
         laptops.add(new Laptop("Dell", "Inspiron", 650.0, 4, 256, "Intel Celeron", "Красный"));
         laptops.add(new Laptop("Asus", "VivoBook", 870.0, 12, 512, "AMD Ryzen 5", "Серый"));
-        laptops.add(new Laptop("Acer", "Aspire", 550.0, 8, 256, "Intel Core i3", "b"));
+        laptops.add(new Laptop("Acer", "Aspire", 550.0, 8, 256, "Intel Core i3", "Белый"));
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите минимальный размер RAM: ");
